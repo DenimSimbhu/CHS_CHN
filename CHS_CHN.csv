@@ -1,5 +1,5 @@
-Issue Type,Issue key,Issue id,Summary,Assignee,Assignee Id,Reporter,Reporter Id,Priority,Status,Resolution,Created,Updated,Due date,Custom field ([CHART] Date of First Response),Custom field (Actual start),Description
-Story,CHS-253,10252,Find Available Slot ELLKAY Cloud Function,Himanshu Pant,712020:d50118c4-bccd-4ee3-aad3-9b4c3bc9a922,Sarah Torres,712020:c3625edf-46a1-4a8a-b59e-a876d35ee7c5,Medium,1_Requirements,,18-12-2023 20:25,19-12-2023 11:32,,22:01.1,,"*First Read*: [https://github.com/denimhealth/cloud_functions/blob/qa/ellkay.md|https://github.com/denimhealth/cloud_functions/blob/qa/ellkay.md|smart-link]
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Description,Environment,Watchers,Watchers,Watchers,Watchers,Watchers Id,Watchers Id,Watchers Id,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Inward issue link (Blocks),Outward issue link (Blocks),Outward issue link (Blocks),Outward issue link (Blocks),Outward issue link (Blocks),Outward issue link (Blocks),Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Custom field (Actual end),Custom field (Actual start),Custom field (Atlas project key),Custom field (Atlas project status),Custom field (Change reason),Custom field (Change risk),Custom field (Change type),Custom field (Compass),Custom field (Development),Custom field (Epic Color),Custom field (Epic Name),Custom field (Epic Status),Custom field (Impact),Custom field (Issue color),Custom field (Locked forms),Custom field (Open forms),Custom field (Rank),Custom field (Request Type),Sprint,Custom field (Start date),Custom field (Story Points),Custom field (Story point estimate),Custom field (Submitted forms),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Total forms),Custom field ([CHART] Date of First Response),Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Parent,Parent summary,Status Category
+Find Available Slot ELLKAY Cloud Function,CHS-253,10252,Story,1_Requirements,CHS,CHS Implementation,software,Ben Gawiser,712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf,,Medium,,Himanshu Pant,712020:d50118c4-bccd-4ee3-aad3-9b4c3bc9a922,Sarah Torres,712020:c3625edf-46a1-4a8a-b59e-a876d35ee7c5,Gokberk Yar,712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8,18/Dec/23 8:25 PM,19/Dec/23 11:32 AM,19/Dec/23 12:25 PM,,,0,"*First Read*: [https://github.com/denimhealth/cloud_functions/blob/qa/ellkay.md|https://github.com/denimhealth/cloud_functions/blob/qa/ellkay.md|smart-link]
 
 *Ellkay api endpoint for available slots* : [https://lkcloud-api.readme.io/reference/post_lkappointments-getopenappointmentslots|https://lkcloud-api.readme.io/reference/post_lkappointments-getopenappointmentslots|smart-link] 
 
@@ -727,8 +727,13 @@ Output: (DiaglogflowAvailableOutput) in models.py.
       ""code"": ""PX Work up LAB"",
       ""id"": ""12820""
     }
-  ]"
-Story,CHS-252,10251,Find Appointment ELLKAY Cloud Funciton,Sandeep Rao,712020:ed859eaf-e848-4c09-927d-ec26641e0b21,Sarah Torres,712020:c3625edf-46a1-4a8a-b59e-a876d35ee7c5,Medium,1_Requirements,,18-12-2023 19:56,19-12-2023 11:22,,,,"*First Read*: [https://github.com/denimhealth/cloud_functions/blob/qa/ellkay.md|https://github.com/denimhealth/cloud_functions/blob/qa/ellkay.md|smart-link]  
+  ]",,Gokberk Yar,Himanshu Pant,Sarah Torres,,712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8,712020:d50118c4-bccd-4ee3-aad3-9b4c3bc9a922,712020:c3625edf-46a1-4a8a-b59e-a876d35ee7c5,,,,,,,,,,,CHS-255,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i001fz:,,Denim Sprint 01,,,,,,,,,2023-12-19 17:22:01.124,"19/Dec/23 11:22 AM;712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8;[~accountid:712020:c3625edf-46a1-4a8a-b59e-a876d35ee7c5] 
+This function in summary does the folllowing:{{Given a patientId, and physicianIds. Return 3 first available slot.}}
+
+Will we ask user for the date? If yes, i can update it accordingly.
+
+",,,,,,,,,,,,,,,,,,10023,Create Appointment (Existing Patient),In Progress
+Find Appointment ELLKAY Cloud Funciton,CHS-252,10251,Story,1_Requirements,CHS,CHS Implementation,software,Ben Gawiser,712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf,,Medium,,Sandeep Rao,712020:ed859eaf-e848-4c09-927d-ec26641e0b21,Sarah Torres,712020:c3625edf-46a1-4a8a-b59e-a876d35ee7c5,Gokberk Yar,712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8,18/Dec/23 7:56 PM,19/Dec/23 11:22 AM,19/Dec/23 3:38 AM,,,0,"*First Read*: [https://github.com/denimhealth/cloud_functions/blob/qa/ellkay.md|https://github.com/denimhealth/cloud_functions/blob/qa/ellkay.md|smart-link]  
 
 *Ellkay api endpoint for appointments* : ""[https://lkcloud-api.readme.io/reference/post_lkappointments-getappointments|https://lkcloud-api.readme.io/reference/post_lkappointments-getappointments|smart-link] ""   
 
@@ -841,8 +846,8 @@ print(len(response.json()))
 print(response.json()[0])
 print(response.json()[1])
 print(response.json()[2])
-{noformat}"
-Task,CHS-237,10236,Format and bug fixes for Resource Matrix webapp,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Ben Gawiser,712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf,Medium,3_In Progress,,15-12-2023 08:53,19-12-2023 08:37,,28:08.5,,"I found the following issues when testing the Resource Matrix application. Please address them by 22/12/23.
+{noformat}",,Gokberk Yar,Sandeep Rao,Sarah Torres,,712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8,712020:ed859eaf-e848-4c09-927d-ec26641e0b21,712020:c3625edf-46a1-4a8a-b59e-a876d35ee7c5,,,,,,,,,,,CHS-55,CHS-56,CHS-57,CHS-75,CHS-254,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i001fr:,,Denim Sprint 01,,,,,,,,,,,,,,,,,,,,,,,,,,,,10054,Verify Appointment (V1),In Progress
+Format and bug fixes for Resource Matrix webapp,CHS-237,10236,Task,3_In Progress,CHS,CHS Implementation,software,Ben Gawiser,712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf,,Medium,,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Ben Gawiser,712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf,Ben Gawiser,712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf,15/Dec/23 8:53 AM,19/Dec/23 8:37 AM,19/Dec/23 3:32 AM,,,0,"I found the following issues when testing the Resource Matrix application. Please address them by 22/12/23.
 
 # Text isn't well formatted (e.g. phone numbers splitting lines, the Analyze UX is better. Let's display people that way (but still editable)
 # There is no way to get back to the basic search page once you click away (maybe clicking on the Denim icon should take you there)
@@ -850,8 +855,10 @@ Task,CHS-237,10236,Format and bug fixes for Resource Matrix webapp,Divyum,712020
 # Display the alert and notes expiration as part of the daily alert and office notes field (e.g. This note will expire on...)
 # Hitting enter after typing in data for a search should kick off the search
 # Do not display UUID, that is an internal field only
-# File link downloads a text field and not the file. My guess is that you need to download the actual file out of the Cloud Storage bucket. Do you need a new cloud function for that?"
-Story,CHS-236,10235,GCP Healthcare API Cloud Function,Sandeep Rao,712020:ed859eaf-e848-4c09-927d-ec26641e0b21,Gokberk Yar,712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8,Medium,3_In Progress,,14-12-2023 19:08,18-12-2023 10:37,,12:52.5,,"Write a cloud function that takes a single string input *patient_medical_description.*
+# File link downloads a text field and not the file. My guess is that you need to download the actual file out of the Cloud Storage bucket. Do you need a new cloud function for that?",,Ben Gawiser,Divyum,,,712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf,712020:acd3751f-379c-4e62-a95e-2686853dee62,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i001e7:,,Denim Sprint 01,,,,,,,,,2023-12-19 14:28:08.535,"19/Dec/23 8:28 AM;712020:acd3751f-379c-4e62-a95e-2686853dee62;pushed fixes for these pointers : 1, 2 , 5, 6 ","19/Dec/23 8:37 AM;712020:acd3751f-379c-4e62-a95e-2686853dee62;[~accountid:712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf] for 7 , yes we’ll be needing a cloud function for the downloading the actual file from the cloud storage , I have created a ticket for the same. 
+
+or maybe we can have a  direct url of the download link in the search results response ",,,,,,,,,,,,,,,,,,,In Progress
+GCP Healthcare API Cloud Function,CHS-236,10235,Story,3_In Progress,CHS,CHS Implementation,software,Ben Gawiser,712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf,,Medium,,Sandeep Rao,712020:ed859eaf-e848-4c09-927d-ec26641e0b21,Gokberk Yar,712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8,Gokberk Yar,712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8,14/Dec/23 7:08 PM,18/Dec/23 10:37 AM,18/Dec/23 4:40 AM,,,0,"Write a cloud function that takes a single string input *patient_medical_description.*
 Queries the gcp healthcare api {{""https://healthcare.googleapis.com/v1/projects/PROJECT_ID/locations/LOCATION/services/nlp:analyzeEntities""}}
 
 with the *patient_medical_description*.
@@ -882,8 +889,441 @@ curl -X POST \
 
 
 
-For this task create a new service account or use [health-care-api-service@genesys-dialogflow-agent.iam.gserviceaccount.com|mailto:health-care-api-service@genesys-dialogflow-agent.iam.gserviceaccount.com]."
-Task,CHS-234,10233,Dialogflow Cloud Functions Get Started,Sandeep Rao,712020:ed859eaf-e848-4c09-927d-ec26641e0b21,Gokberk Yar,712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8,Medium,4_Review,,12-12-2023 10:20,18-12-2023 03:59,,40:26.3,,"This task is a placeholder task to practice, our cloud functions repo. 
+For this task create a new service account or use [health-care-api-service@genesys-dialogflow-agent.iam.gserviceaccount.com|mailto:health-care-api-service@genesys-dialogflow-agent.iam.gserviceaccount.com].",,Gokberk Yar,Sandeep Rao,,,712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8,712020:ed859eaf-e848-4c09-927d-ec26641e0b21,,,,,,,,,,,,CHS-81,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i001dz:,,Denim Sprint 01,,,,,,,,,2023-12-15 13:12:52.477,"15/Dec/23 7:12 AM;712020:ed859eaf-e848-4c09-927d-ec26641e0b21;Putting some notes here down here for future reference. Sample Response structure:
+
+
+{noformat}{
+
+  ""entityMentions"": [
+
+    {
+
+      ""mentionId"": ""1"",
+
+      ""type"": ""MEDICINE"",
+
+      ""text"": {
+
+        ""content"": ""Insulin regimen"",
+
+        ""beginOffset"": 0
+
+      },
+
+      ""linkedEntities"": [
+
+        {
+
+          ""entityId"": ""UMLS/C0021641""
+
+        },
+
+        {
+
+          ""entityId"": ""UMLS/C0795635""
+
+        },
+
+        {
+
+          ""entityId"": ""UMLS/C1533581""
+
+        },
+
+        {
+
+          ""entityId"": ""UMLS/C3537244""
+
+        },
+
+        {
+
+          ""entityId"": ""UMLS/C3714501""
+
+        }
+
+      ],
+
+      ""temporalAssessment"": {
+
+        ""value"": ""UPCOMING"",
+
+        ""confidence"": 0.95375889539718628
+
+      },
+
+      ""certaintyAssessment"": {
+
+        ""value"": ""LIKELY"",
+
+        ""confidence"": 0.61898314952850342
+
+      },
+
+      ""subject"": {
+
+        ""value"": ""PATIENT"",
+
+        ""confidence"": 0.99964696168899536
+
+      },
+
+      ""confidence"": 0.62128812074661255
+
+    },
+
+    {
+
+      ""mentionId"": ""2"",
+
+      ""type"": ""MED_DOSE"",
+
+      ""text"": {
+
+        ""content"": ""5 units"",
+
+        ""beginOffset"": 16
+
+      },
+
+      ""confidence"": 0.78806489706039429
+
+    },
+
+    {
+
+      ""mentionId"": ""3"",
+
+      ""type"": ""MED_ROUTE"",
+
+      ""text"": {
+
+        ""content"": ""IV"",
+
+        ""beginOffset"": 24
+
+      },
+
+      ""linkedEntities"": [
+
+        {
+
+          ""entityId"": ""UMLS/C0348016""
+
+        }
+
+      ],
+
+      ""confidence"": 0.89274352788925171
+
+    },
+
+    {
+
+      ""mentionId"": ""4"",
+
+      ""type"": ""PROBLEM"",
+
+      ""text"": {
+
+        ""content"": ""diabetes"",
+
+        ""beginOffset"": 52
+
+      },
+
+      ""linkedEntities"": [
+
+        {
+
+          ""entityId"": ""UMLS/C0011847""
+
+        },
+
+        {
+
+          ""entityId"": ""UMLS/C0011849""
+
+        },
+
+        {
+
+          ""entityId"": ""UMLS/C0241863""
+
+        }
+
+      ],
+
+      ""temporalAssessment"": {
+
+        ""value"": ""CURRENT"",
+
+        ""confidence"": 0.91680920124053955
+
+      },
+
+      ""certaintyAssessment"": {
+
+        ""value"": ""LIKELY"",
+
+        ""confidence"": 0.98018795251846313
+
+      },
+
+      ""subject"": {
+
+        ""value"": ""PATIENT"",
+
+        ""confidence"": 0.99965417385101318
+
+      },
+
+      ""confidence"": 0.9951852560043335
+
+    }
+
+  ],
+
+  ""entities"": [
+
+    {
+
+      ""entityId"": ""UMLS/C0011847"",
+
+      ""preferredTerm"": ""Diabetes"",
+
+      ""vocabularyCodes"": [
+
+        ""LNC/LA10529-8"",
+
+        ""LNC/LP128793-9"",
+
+        ""LNC/MTHU040702"",
+
+        ""MTH/NOCODE"",
+
+        ""OMIM/MTHU050182""
+
+      ]
+
+    },
+
+    {
+
+      ""entityId"": ""UMLS/C0011849"",
+
+      ""preferredTerm"": ""Diabetes Mellitus"",
+
+      ""vocabularyCodes"": [
+
+        ""HPO/HP:0000819"",
+
+        ""ICD9CM/250"",
+
+        ""LNC/LA14291-1"",
+
+        ""LNC/LA27539-8"",
+
+        ""LNC/LP74722-7"",
+
+        ""LNC/MTHU020781"",
+
+        ""MEDLINEPLUS/4"",
+
+        ""MSH/D003920"",
+
+        ""MTH/NOCODE"",
+
+        ""MTH/U000263"",
+
+        ""NCI/C2985"",
+
+        ""OMIM/MTHU036798""
+
+      ]
+
+    },
+
+    {
+
+      ""entityId"": ""UMLS/C0021641"",
+
+      ""preferredTerm"": ""Insulin"",
+
+      ""vocabularyCodes"": [
+
+        ""FMA/83365"",
+
+        ""LNC/LA15805-7"",
+
+        ""LNC/LP14676-8"",
+
+        ""LNC/LP16325-0"",
+
+        ""LNC/LP32542-0"",
+
+        ""LNC/LP70329-5"",
+
+        ""LNC/MTHU002108"",
+
+        ""LNC/MTHU019392"",
+
+        ""MSH/D007328"",
+
+        ""MTH/NOCODE""
+
+      ]
+
+    },
+
+    {
+
+      ""entityId"": ""UMLS/C0241863"",
+
+      ""preferredTerm"": ""Diabetic"",
+
+      ""vocabularyCodes"": [
+
+        ""LNC/LA26134-9""
+
+      ]
+
+    },
+
+    {
+
+      ""entityId"": ""UMLS/C0348016"",
+
+      ""preferredTerm"": ""Intravenous"",
+
+      ""vocabularyCodes"": [
+
+        ""LNC/LA9437-0"",
+
+        ""LNC/LP32453-0"",
+
+        ""MTH/NOCODE"",
+
+        ""NCI/C13346""
+
+      ]
+
+    },
+
+    {
+
+      ""entityId"": ""UMLS/C0795635"",
+
+      ""preferredTerm"": ""insulin, regular, human"",
+
+      ""vocabularyCodes"": [
+
+        ""LNC/LP17001-6"",
+
+        ""MSH/D061386"",
+
+        ""MTH/NOCODE"",
+
+        ""NCI/C29125"",
+
+        ""RXNORM/253182"",
+
+        ""VANDF/4017559"",
+
+        ""VANDF/4017569"",
+
+        ""VANDF/4019786""
+
+      ]
+
+    },
+
+    {
+
+      ""entityId"": ""UMLS/C1533581"",
+
+      ""preferredTerm"": ""Therapeutic Insulin"",
+
+      ""vocabularyCodes"": [
+
+        ""MTH/NOCODE"",
+
+        ""NCI/C581""
+
+      ]
+
+    },
+
+    {
+
+      ""entityId"": ""UMLS/C3537244"",
+
+      ""preferredTerm"": ""Insulins"",
+
+      ""vocabularyCodes"": [
+
+        ""MSH/D061385"",
+
+        ""MTH/NOCODE""
+
+      ]
+
+    },
+
+    {
+
+      ""entityId"": ""UMLS/C3714501"",
+
+      ""preferredTerm"": ""Insulin Drug Class"",
+
+      ""vocabularyCodes"": [
+
+        ""MTH/NOCODE"",
+
+        ""VANDF/4021631""
+
+      ]
+
+    }
+
+  ],
+
+  ""relationships"": [
+
+    {
+
+      ""subjectId"": ""1"",
+
+      ""objectId"": ""2"",
+
+      ""confidence"": 0.99964696168899536
+
+    },
+
+    {
+
+      ""subjectId"": ""1"",
+
+      ""objectId"": ""3"",
+
+      ""confidence"": 0.99964696168899536
+
+    },
+
+    {
+
+      ""subjectId"": ""4"",
+
+      ""objectId"": ""1"",
+
+      ""confidence"": 0.68553143739700317
+
+    }
+
+  ]
+
+}{noformat}",,,,,,,,,,,,,,,,,,10023,Create Appointment (Existing Patient),In Progress
+Dialogflow Cloud Functions Get Started,CHS-234,10233,Task,4_Review,CHS,CHS Implementation,software,Ben Gawiser,712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf,,Medium,,Sandeep Rao,712020:ed859eaf-e848-4c09-927d-ec26641e0b21,Gokberk Yar,712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8,Gokberk Yar,712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8,12/Dec/23 10:20 AM,18/Dec/23 3:59 AM,18/Dec/23 4:40 AM,,,0,"This task is a placeholder task to practice, our cloud functions repo. 
 Working on a normal task is just adding couple lines of business logic.
 
 We may convert this ticket soon to our get patient id logic once our third party integration is complete.
@@ -899,9 +1339,12 @@ For the time being,
 - write one unit testcase for your function.
 - update ci.yml and other configuration files such that your pytest and pre-commit works as expected.
 - push your branch to git.
- - make a PR."
-Subtask,CHS-233,10232,Profile page ,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Medium,5_Done,Done,12-12-2023 08:16,12-12-2023 08:16,,,,
-Task,CHS-232,10231,Common Repo Deployment,Silambarasan Duraisamy,712020:3f2226b1-4b7d-4e3e-af61-b423179861a0,Gokberk Yar,712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8,Medium,5_Done,Done,11-12-2023 17:24,14-12-2023 14:14,,51:07.4,,"Background:
+ - make a PR.",,Gokberk Yar,Sandeep Rao,,,712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8,712020:ed859eaf-e848-4c09-927d-ec26641e0b21,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0004e:zzzzzzzv,,,,,,,,,,,2023-12-13 06:40:26.342,"13/Dec/23 12:40 AM;712020:ed859eaf-e848-4c09-927d-ec26641e0b21;-I have created the branch KAN-234:  from the branch qa
+-Have created subdirectory with the required standard .py files.
+- Naming the endpoint - qa-KAN-234-get_patient_id-get-thirdparty-data
+(Not sure if this fits our naming conventions)","14/Dec/23 7:27 AM;712020:ed859eaf-e848-4c09-927d-ec26641e0b21;-Unit tests and models.py are complete.  Need to run the test, update ci.yml and push the branch",,,,,,,,,,,,,,,,,,,In Progress
+Profile page ,CHS-233,10232,Subtask,5_Done,CHS,CHS Implementation,software,Ben Gawiser,712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf,,Medium,Done,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,12/Dec/23 8:16 AM,12/Dec/23 8:16 AM,19/Dec/23 12:25 PM,12/Dec/23 8:16 AM,,0,,,Divyum,,,,712020:acd3751f-379c-4e62-a95e-2686853dee62,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i001dr:,,Denim Sprint 01,,,,,,,,,,,,,,,,,,,,,,,,,,,,10158,Authentication in admin app,Done
+Common Repo Deployment,CHS-232,10231,Task,5_Done,CHS,CHS Implementation,software,Ben Gawiser,712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf,,Medium,Done,Silambarasan Duraisamy,712020:3f2226b1-4b7d-4e3e-af61-b423179861a0,Gokberk Yar,712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8,Gokberk Yar,712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8,11/Dec/23 5:24 PM,14/Dec/23 2:14 PM,15/Dec/23 2:13 AM,14/Dec/23 2:14 PM,,0,"Background:
 Github Repo: [https://github.com/denimhealth/DenimCommon|https://github.com/denimhealth/DenimCommon|smart-link] 
 GCP Account: chs-resource-matrix
 
@@ -937,24 +1380,110 @@ Chatgpt suggests adding a line like:
 
 
 {noformat}# requirements.txt
-my-awesome-package==1.0.0 --extra-index-url https://us-central1-docker.pkg.dev/my-gcp-project/my-repo/pypi/simple/{noformat}"
-Subtask,CHS-229,10228,Remove firebase from codebase,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Medium,5_Done,Done,11-12-2023 08:34,12-12-2023 08:16,,,,
-Subtask,CHS-218,10217,Login/logout flow by okta ,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Medium,5_Done,Done,06-12-2023 08:32,12-12-2023 08:16,,,,
-Task,CHS-203,10202,Implement Okta for CHS SSO,Silambarasan Duraisamy,712020:3f2226b1-4b7d-4e3e-af61-b423179861a0,Ben Gawiser,712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf,Medium,3_In Progress,,01-12-2023 09:27,18-12-2023 10:21,,53:17.0,,"The purpose of the ticket is to perform the work necessary to create the SSO integration with Okta in the Admin/Resource Matrix application.
+my-awesome-package==1.0.0 --extra-index-url https://us-central1-docker.pkg.dev/my-gcp-project/my-repo/pypi/simple/{noformat}",,Ben Gawiser,Gokberk Yar,Silambarasan Duraisamy,,712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf,712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8,712020:3f2226b1-4b7d-4e3e-af61-b423179861a0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0004e:zzr,,Denim Sprint 01,,,,,,,,,2023-12-11 23:51:07.384,"11/Dec/23 5:42 PM;712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8;[~accountid:712020:3f2226b1-4b7d-4e3e-af61-b423179861a0] I didn’t watch whole thing but seems very related
+
+[https://www.youtube.com/watch?v=6E_Ph_IYCNA|https://www.youtube.com/watch?v=6E_Ph_IYCNA|smart-link] ",11/Dec/23 5:51 PM;712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf;[~accountid:712020:3f2226b1-4b7d-4e3e-af61-b423179861a0] thanks for your help on this. We need this complete so that we can call the common library from the resource matrix cloud functions.,"11/Dec/23 10:35 PM;712020:3f2226b1-4b7d-4e3e-af61-b423179861a0;[~accountid:712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf] [~accountid:712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8] : Sure, Will work on it and keep this updated.","12/Dec/23 8:26 AM;712020:3f2226b1-4b7d-4e3e-af61-b423179861a0;[~accountid:712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8] [~accountid:712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf] : Update: Have followed the google docs and created artifact registry, updated the ci.yml and were successfully created the Denim Common as a package and able to Push & install it on the Cloud.
+
+Having issues on accessing from other repositories, working on fixing it.",12/Dec/23 4:22 PM;712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8;[~accountid:712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf]  waiting your confirmation. ,,,,,,,,,,,,,,,,Done
+Remove firebase from codebase,CHS-229,10228,Subtask,5_Done,CHS,CHS Implementation,software,Ben Gawiser,712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf,,Medium,Done,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,11/Dec/23 8:34 AM,12/Dec/23 8:16 AM,19/Dec/23 12:25 PM,12/Dec/23 8:16 AM,,0,,,Divyum,,,,712020:acd3751f-379c-4e62-a95e-2686853dee62,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i001d3:,,Denim Sprint 01,,,,,,,,,,,,,,,,,,,,,,,,,,,,10158,Authentication in admin app,Done
+Login/logout flow by okta ,CHS-218,10217,Subtask,5_Done,CHS,CHS Implementation,software,Ben Gawiser,712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf,,Medium,Done,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,06/Dec/23 8:32 AM,12/Dec/23 8:16 AM,19/Dec/23 12:25 PM,12/Dec/23 8:16 AM,,0,,,Divyum,,,,712020:acd3751f-379c-4e62-a95e-2686853dee62,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i001an:,,Denim Sprint 01,,,,,,,,,,,,,,,,,,,,,,,,,,,,10158,Authentication in admin app,Done
+Implement Okta for CHS SSO,CHS-203,10202,Task,3_In Progress,CHS,CHS Implementation,software,Ben Gawiser,712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf,,Medium,,Silambarasan Duraisamy,712020:3f2226b1-4b7d-4e3e-af61-b423179861a0,Ben Gawiser,712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf,Ben Gawiser,712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf,01/Dec/23 9:27 AM,18/Dec/23 10:21 AM,18/Dec/23 10:58 AM,,,0,"The purpose of the ticket is to perform the work necessary to create the SSO integration with Okta in the Admin/Resource Matrix application.
 
 You should have an invite in your email to join our Okta organization. Please use that invitation to go in and create the appropriate application.
 
- "
-Task,CHS-183,10182,Looker Report UI,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Medium,5_Done,Done,28-11-2023 08:16,18-12-2023 09:00,,,,"UI component for displaying Looker reports within our app. The component should include an <iframe> to embed Looker report and should be responsive. 
+ ",,Ben Gawiser,Gokberk Yar,Silambarasan Duraisamy,,712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf,712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8,712020:3f2226b1-4b7d-4e3e-af61-b423179861a0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0004e:zzzv,,Denim Sprint 01,,,,,,,,,2023-12-07 16:53:17.025,"01/Dec/23 11:32 AM;712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf;Here is information about the connection for CHS: 
 
-This UI can ba accessed by /looker route"
-Task,CHS-180,10179,Create UI for editing Resource Matrix Values,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Ben Gawiser,712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf,Medium,4_Review,,27-11-2023 16:28,18-12-2023 08:48,,19:35.7,,"The purpose of this ticket is for the creation of a UI that will allow for the editing of values in the Resource Matrix. Once a user has been authenticated and shown to have rights to edit a specific market’s resource matrix they will have the ability to search for values and then edit and save them. The system will also need to check that the values that they are entering for the fields are valid values.
+*TEST PingOne info:*
 
-The check for value validity should be done on the front end and a Cloud Function will be created that will take in the field name and will return a list of valid values for the field."
-Subtask,CHS-172,10171,Logout flow if user has logged in using email id/password ,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Medium,5_Done,Done,22-11-2023 08:26,30-11-2023 08:38,,,,
-Subtask,CHS-171,10170,Sign up for new user using email id / password ,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Medium,5_Done,Done,22-11-2023 08:25,30-11-2023 08:38,,,,
-Subtask,CHS-169,10168,Login by Email id / password ,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Medium,5_Done,Done,22-11-2023 08:25,30-11-2023 08:30,,,,
-Task,CHS-163,10162,Continuation of Resource Matrix parsing work,Silambarasan Duraisamy,712020:3f2226b1-4b7d-4e3e-af61-b423179861a0,Ben Gawiser,712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf,Medium,3_In Progress,,18-11-2023 15:22,18-12-2023 10:19,,24:11.7,,"The purpose of this task is to continue the work that was done for the initial Resource Matrix parsing. This should build off of the code that is already available in [https://github.com/denimhealth/CHS_Resource_Matrix/|https://github.com/denimhealth/CHS_Resource_Matrix/|smart-link], specifically the ExcelConversion folder in thamain.t repository.
+client id: a3b4119c-0795-40d9-b500-73925636c95c
+
+Client Secret: XpaIEcig96v4_tMJJu6nE8jO5l7EFDQeF4Zit5MJnxjahhXW51VWiONe3OgRPvWe
+
+PingOne well-known endpoint: [https://auth.pingone.com/6251cb98-a50d-4968-b554-c2aa37b21420/as/.well-known/openid-configuration|https://auth.pingone.com/6251cb98-a50d-4968-b554-c2aa37b21420/as/.well-known/openid-configuration]
+
+Scope: openid
+
+*Please provide the below:*
+
+Redirect URI
+
+List of Attributes /Claims in ID Token.","07/Dec/23 10:53 AM;712020:3f2226b1-4b7d-4e3e-af61-b423179861a0;*Update*: Had a Discussion with [~accountid:712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8] on this issue, there seems to be a scheduled meeting with Okta guys on Monday on the same, will proceed once the issue has been discussed.
+
+I was trying in Okta Dashboard and Yar was using Auth0 Dashboard and came to know both are same organization.","08/Dec/23 3:07 PM;712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8;[~accountid:712020:3f2226b1-4b7d-4e3e-af61-b423179861a0] [~accountid:712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf] [~accountid:712020:c3625edf-46a1-4a8a-b59e-a876d35ee7c5] 
+I will have a meeting with CHS on Dec 12, 2023 2pm - 3pm (CST).","18/Dec/23 10:21 AM;712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8;with a test application (on pingone cloud we completed the authentication)
+I shared the configuration specs with CHS. 
+",,,,,,,,,,,,,,,10200,SSO Integration,In Progress
+Looker Report UI,CHS-183,10182,Task,5_Done,CHS,CHS Implementation,software,Ben Gawiser,712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf,,Medium,Done,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,28/Nov/23 8:16 AM,18/Dec/23 9:00 AM,01/Dec/23 3:33 AM,18/Dec/23 9:00 AM,,0,"UI component for displaying Looker reports within our app. The component should include an <iframe> to embed Looker report and should be responsive. 
+
+This UI can ba accessed by /looker route",,Divyum,,,,712020:acd3751f-379c-4e62-a95e-2686853dee62,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0004e:zl,,Denim Sprint 01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Done
+Create UI for editing Resource Matrix Values,CHS-180,10179,Task,4_Review,CHS,CHS Implementation,software,Ben Gawiser,712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf,,Medium,,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Ben Gawiser,712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf,Ben Gawiser,712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf,27/Nov/23 4:28 PM,18/Dec/23 8:48 AM,04/Dec/23 9:47 PM,,,0,"The purpose of this ticket is for the creation of a UI that will allow for the editing of values in the Resource Matrix. Once a user has been authenticated and shown to have rights to edit a specific market’s resource matrix they will have the ability to search for values and then edit and save them. The system will also need to check that the values that they are entering for the fields are valid values.
+
+The check for value validity should be done on the front end and a Cloud Function will be created that will take in the field name and will return a list of valid values for the field.",,Ben Gawiser,Divyum,,,712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf,712020:acd3751f-379c-4e62-a95e-2686853dee62,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0004e:zd,,Denim Sprint 01,,,,,,,,,2023-11-28 13:19:35.722,"28/Nov/23 7:19 AM;712020:acd3751f-379c-4e62-a95e-2686853dee62;[~accountid:712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf] I would like to seek clarification on the following pointers : 
+
+
+* User rights
+** How are rights or permissions will be managed for accessing and editing specific market resource matrices ? 
+* UI functionality and flow 
+** What specific UI component or functionalities are expected in the editing interface for the resource matrix values? I think maybe we can create a editable table UI  , something like this : [https://mdbootstrap.com/docs/react/plugins/table-editor/|https://mdbootstrap.com/docs/react/plugins/table-editor/|smart-link] 
+** Are there specific data validation rules that need to be implemented on various fields before saving values ? if yes , could you please provide details or examples of these validation checks
+* Integration with cloud function 
+** Can you provide api spec about the cloud function which will be needed for this editing feature
+
+Thanks for your time and assistance in clarifying these pointers above. ","28/Nov/23 8:58 AM;712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf;In terms of user rights, we need to define how that would work.  We’ll need to store somewhere who has admin rights. For the purposes of this ticket, assume that you can make a Cloud Function call with a user and a worksheet name and then it would return if they’re an admin or not.
+
+I think the editable table is a good one to use for this. I would recommend that they have to click an “Edit” button before the fields become editable.
+
+For data validation, there will be a Cloud Function that you can call with a field name that will return the list of valid values for that field.
+
+The Cloud Functions haven’t been written yet, so if there is a spec that you want them to have, please let me know and we can write them that way.","29/Nov/23 8:35 AM;712020:acd3751f-379c-4e62-a95e-2686853dee62;Here is the API specs which might be helpful for this feature : 
+
+*User Rights Management API:*
+
+h4. 1. Check Admin Rights
+
+* Endpoint: {{/baseurl/checkAdminRights}}
+* Method: {{POST}}
+* Description: Validate if a user has admin rights for a specific worksheet.
+
+*Editable Table API:*
+
+h4. 1. Get Editable Table Data
+
+* Endpoint: {{/baseurl/getEditableTableData}}
+* Method: {{GET}}
+* Description: Retrieve the data for the editable table.
+
+
+
+h4. 2. Update Provider Data
+
+* Endpoint: {{/baseurl/updateProviderData}}
+* Method: {{PUT}}
+* Description: Update the data for a specific provider in the table.
+
+
+
+
+h3. Data Validation API:
+
+h4. 1. Get Valid Values for Field
+
+* Endpoint: {{/baseurl/getValidValuesForField}}
+* Method: {{POST}}
+* Description: Retrieve the list of valid values for a specific field in the table.","29/Nov/23 3:39 PM;712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf;For the get Editable table data, I think we can use the existing cloud function. Is there any reason why we couldn’t?
+
+
+
+Also, for the Check Admin Rights, we’re going to need to define a user object. Has that been done yet? If not, we need to create a child ticket for that.","30/Nov/23 3:37 AM;712020:acd3751f-379c-4e62-a95e-2686853dee62;[~accountid:712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf] 
+
+No, we haven’t created a user object on our own. We are using the user details which we are getting from the google identity or firebase after authentication. 
+
+
+",,,,,,,,,,,,,,10178,Resource Matrix Editing,In Progress
+Logout flow if user has logged in using email id/password ,CHS-172,10171,Subtask,5_Done,CHS,CHS Implementation,software,Ben Gawiser,712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf,,Medium,Done,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,22/Nov/23 8:26 AM,30/Nov/23 8:38 AM,19/Dec/23 12:25 PM,27/Nov/23 8:31 AM,,0,,,Divyum,,,,712020:acd3751f-379c-4e62-a95e-2686853dee62,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i000zz:,,Denim Sprint 01,,,,,,,,,,,,,,,,,,,,,,,,,,,,10158,Authentication in admin app,Done
+Sign up for new user using email id / password ,CHS-171,10170,Subtask,5_Done,CHS,CHS Implementation,software,Ben Gawiser,712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf,,Medium,Done,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,22/Nov/23 8:25 AM,30/Nov/23 8:38 AM,19/Dec/23 12:25 PM,30/Nov/23 8:30 AM,,0,,,Divyum,,,,712020:acd3751f-379c-4e62-a95e-2686853dee62,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i000zr:,,Denim Sprint 01,,,,,,,,,,,,,,,,,,,,,,,,,,,,10158,Authentication in admin app,Done
+Login by Email id / password ,CHS-169,10168,Subtask,5_Done,CHS,CHS Implementation,software,Ben Gawiser,712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf,,Medium,Done,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,22/Nov/23 8:25 AM,30/Nov/23 8:30 AM,19/Dec/23 12:25 PM,22/Nov/23 8:25 AM,,0,,,Divyum,,,,712020:acd3751f-379c-4e62-a95e-2686853dee62,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i000zb:,,Denim Sprint 01,,,,,,,,,,,,,,,,,,,,,,,,,,,,10158,Authentication in admin app,Done
+Continuation of Resource Matrix parsing work,CHS-163,10162,Task,3_In Progress,CHS,CHS Implementation,software,Ben Gawiser,712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf,,Medium,,Silambarasan Duraisamy,712020:3f2226b1-4b7d-4e3e-af61-b423179861a0,Ben Gawiser,712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf,Ben Gawiser,712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf,18/Nov/23 3:22 PM,18/Dec/23 10:19 AM,18/Dec/23 10:14 AM,,,0,"The purpose of this task is to continue the work that was done for the initial Resource Matrix parsing. This should build off of the code that is already available in [https://github.com/denimhealth/CHS_Resource_Matrix/|https://github.com/denimhealth/CHS_Resource_Matrix/|smart-link], specifically the ExcelConversion folder in thamain.t repository.
 
 
 
@@ -966,21 +1495,22 @@ While working, adjust the output of the Excel_Conversion.py file to not save to 
 # For physicians that have left CHS, most of them end up getting left out of the parsing (see the excluded sheets on lines 16-78 in the Excel_Conversion.py file. We should try to get as many of those sheets as possible to parse.
 # Once the Excel_Conversion.py file has been completed, change the output to again point to the bucket and run it.
 # Refactor the code, merging the Excel_Conversion.py and main.py files into a single module so that there isn’t repeated code.
-# Test that the cloud function still works after the changes are made to the main.py module."
-Subtask,CHS-160,10159," Login flow , Log out flow by google",Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Medium,5_Done,Done,15-11-2023 08:32,27-11-2023 08:31,,,,
-Task,CHS-159,10158,Authentication in admin app,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Medium,5_Done,Done,15-11-2023 08:32,18-12-2023 10:23,,,,
-Task,CHS-145,10144,UI exploration for representing information from spreadsheets inside denimhealth admin ui app,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Medium,5_Done,Done,10-11-2023 06:02,19-12-2023 08:30,,24:31.9,,
-Subtask,CHS-110,10109,Input,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Medium,5_Done,Done,06-11-2023 04:29,18-12-2023 10:23,,,,
-Subtask,CHS-109,10108,Navbar,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Medium,5_Done,Done,06-11-2023 04:29,18-12-2023 10:23,,,,
-Task,CHS-108,10107,Denim Design System Components based on Chakra UI,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Medium,5_Done,Done,06-11-2023 04:27,18-12-2023 10:23,,,,"The objective of this JIRA ticket is to create a foundation for the Denim UI design system by :   
+# Test that the cloud function still works after the changes are made to the main.py module.",,Ben Gawiser,Silambarasan Duraisamy,,,712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf,712020:3f2226b1-4b7d-4e3e-af61-b423179861a0,,,,,,,,,,,,CHS-42,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0004e:zzx,,Denim Sprint 01,,,,,,,,,2023-11-22 14:24:11.704,22/Nov/23 8:24 AM;712020:3f2226b1-4b7d-4e3e-af61-b423179861a0;Updating the ignore sheets lists on ExcelConversions.py to avert the missing fields in the output and will be adding logic to filter the provider with last day or retired on the daily alert / office notes field which causes several empty rows in the outputs on the provider details.  ,"18/Dec/23 10:19 AM;712020:3f2226b1-4b7d-4e3e-af61-b423179861a0;[~accountid:712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf] : I know you have updated the codebase for Resource Matrix. is there anything that needs to be done on this ticket, I have worked on the auto color coding of abnormalvalues.csv using regex which is in progress for couple of scenarios.",,,,,,,,,,,,,,,,,,,In Progress
+" Login flow , Log out flow by google",CHS-160,10159,Subtask,5_Done,CHS,CHS Implementation,software,Ben Gawiser,712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf,,Medium,Done,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,15/Nov/23 8:32 AM,27/Nov/23 8:31 AM,19/Dec/23 12:25 PM,27/Nov/23 8:31 AM,,0,,,Divyum,,,,712020:acd3751f-379c-4e62-a95e-2686853dee62,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i000xr:,,Denim Sprint 01,,,,,,,,,,,,,,,,,,,,,,,,,,,,10158,Authentication in admin app,Done
+Authentication in admin app,CHS-159,10158,Task,5_Done,CHS,CHS Implementation,software,Ben Gawiser,712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf,,Medium,Done,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,15/Nov/23 8:32 AM,18/Dec/23 10:23 AM,01/Dec/23 3:33 AM,18/Dec/23 10:23 AM,,0,,,Divyum,,,,712020:acd3751f-379c-4e62-a95e-2686853dee62,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0004e:zs,,Denim Sprint 01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Done
+UI exploration for representing information from spreadsheets inside denimhealth admin ui app,CHS-145,10144,Task,5_Done,CHS,CHS Implementation,software,Ben Gawiser,712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf,,Medium,Done,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,10/Nov/23 6:02 AM,19/Dec/23 8:30 AM,27/Nov/23 7:58 AM,19/Dec/23 8:30 AM,,0,,,Divyum,Gokberk Yar,,,712020:acd3751f-379c-4e62-a95e-2686853dee62,712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0004e:zu,,Denim Sprint 01,,,,,,,,,2023-12-18 16:24:31.929,"18/Dec/23 10:24 AM;712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8;[~accountid:712020:acd3751f-379c-4e62-a95e-2686853dee62] 
+is there any extra work needed for this one if not let’s mark it as done.",,,,,,,,,,,,,,,,,,,,Done
+Input,CHS-110,10109,Subtask,5_Done,CHS,CHS Implementation,software,Ben Gawiser,712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf,,Medium,Done,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,06/Nov/23 4:29 AM,18/Dec/23 10:23 AM,19/Dec/23 12:25 PM,18/Dec/23 10:23 AM,,0,,,Divyum,,,,712020:acd3751f-379c-4e62-a95e-2686853dee62,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i000mn:,,Denim Sprint 01,,,,,,,,,,,,,,,,,,,,,,,,,,,,10107,Denim Design System Components based on Chakra UI,Done
+Navbar,CHS-109,10108,Subtask,5_Done,CHS,CHS Implementation,software,Ben Gawiser,712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf,,Medium,Done,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,06/Nov/23 4:29 AM,18/Dec/23 10:23 AM,14/Nov/23 8:38 AM,18/Dec/23 10:23 AM,,0,,,Divyum,,,,712020:acd3751f-379c-4e62-a95e-2686853dee62,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i000mf:,,Denim Sprint 01,,,,,,,,,,,,,,,,,,,,,,,,,,,,10107,Denim Design System Components based on Chakra UI,Done
+Denim Design System Components based on Chakra UI,CHS-108,10107,Task,5_Done,CHS,CHS Implementation,software,Ben Gawiser,712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf,,Medium,Done,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,06/Nov/23 4:27 AM,18/Dec/23 10:23 AM,14/Nov/23 8:40 AM,18/Dec/23 10:23 AM,,0,"The objective of this JIRA ticket is to create a foundation for the Denim UI design system by :   
 
 * implementing the basic atoms following the principles of the Atomic Design System. 
 * creating reusable components 
 
-This will provide a structured and modular foundation for building UI components."
-Subtask,CHS-105,10104,FE app deployment with CI/CD using GCP,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Medium,5_Done,Done,03-11-2023 02:18,16-11-2023 08:04,,,,
-Subtask,CHS-104,10103,"Setup Frontend Repository with React Using Vite/webpack, typescript ,prettier, Airbnb style guide, and ESLint",Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Medium,5_Done,Done,03-11-2023 01:52,07-11-2023 04:27,,,,
-Story,CHS-92,10091,Search (and find) information about a practice or provider,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Marc Lachs,712020:93dcf9e9-6c63-4874-99bd-ccb9ea569441,Medium,5_Done,Done,30-10-2023 10:04,18-12-2023 10:25,,51:15.2,,"*User Story*
+This will provide a structured and modular foundation for building UI components.",,Divyum,,,,712020:acd3751f-379c-4e62-a95e-2686853dee62,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0004e:zw,,Denim Sprint 01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Done
+FE app deployment with CI/CD using GCP,CHS-105,10104,Subtask,5_Done,CHS,CHS Implementation,software,Ben Gawiser,712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf,,Medium,Done,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,03/Nov/23 2:18 AM,16/Nov/23 8:04 AM,16/Nov/23 8:11 AM,10/Nov/23 6:01 AM,,0,,,Divyum,,,,712020:acd3751f-379c-4e62-a95e-2686853dee62,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i000lr:,,Denim Sprint 01,,,,,,,,,,,,,,,,,,,,,,,,,,,,10091,Search (and find) information about a practice or provider,Done
+"Setup Frontend Repository with React Using Vite/webpack, typescript ,prettier, Airbnb style guide, and ESLint",CHS-104,10103,Subtask,5_Done,CHS,CHS Implementation,software,Ben Gawiser,712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf,,Medium,Done,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,03/Nov/23 1:52 AM,07/Nov/23 4:27 AM,19/Dec/23 12:25 PM,06/Nov/23 6:07 AM,,0,,,Divyum,,,,712020:acd3751f-379c-4e62-a95e-2686853dee62,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i000lj:,,Denim Sprint 01,,,,,,,,,,,,,,,,,,,,,,,,,,,,10091,Search (and find) information about a practice or provider,Done
+Search (and find) information about a practice or provider,CHS-92,10091,Story,5_Done,CHS,CHS Implementation,software,Ben Gawiser,712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf,,Medium,Done,Divyum,712020:acd3751f-379c-4e62-a95e-2686853dee62,Marc Lachs,712020:93dcf9e9-6c63-4874-99bd-ccb9ea569441,Marc Lachs,712020:93dcf9e9-6c63-4874-99bd-ccb9ea569441,30/Oct/23 10:04 AM,18/Dec/23 10:25 AM,27/Nov/23 7:58 AM,18/Dec/23 10:25 AM,,0,"*User Story*
 
 As an agent working my call queue in Genesys, I need to search (and find) information about a practice or provider. 
 
@@ -992,8 +1522,10 @@ As an agent working my call queue in Genesys, I need to search (and find) inform
 * Authentication will eventually be handled by SSO integration with the client, but for the moment, it should be handled by having an allow list of Google accounts.
 * System should utilize Google App Engine or Cloud Run.
 * Front end will need to call a Cloud Function with some combination of phone number, doctor name, or practice name. The user will need to enter a search value into one or more of these fields.
-* The Cloud Function will return a URL of an Spreadsheet (Google or Excel) that should be opened in a new tab for the user automatically."
-Story,CHS-34,10033,Report: All Conversations (with PHI),Himanshu Pant,712020:d50118c4-bccd-4ee3-aad3-9b4c3bc9a922,Marc Lachs,712020:93dcf9e9-6c63-4874-99bd-ccb9ea569441,Medium,4_Review,,20-10-2023 13:35,14-12-2023 14:10,,37:10.9,,"*User Story*
+* The Cloud Function will return a URL of an Spreadsheet (Google or Excel) that should be opened in a new tab for the user automatically.",,Ben Gawiser,Marc Lachs,,,712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf,712020:93dcf9e9-6c63-4874-99bd-ccb9ea569441,,,,,,,,,,,CHS-198,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0004e:zy,,Denim Sprint 01,,,,,,,,,2023-11-02 18:51:15.21,"02/Nov/23 1:51 PM;712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf;The endpoint for the Cloud Function is [https://us-west1-chs-resource-matrix.cloudfunctions.net/ResourceMatrixCloudFunction/|https://us-west1-chs-resource-matrix.cloudfunctions.net/ResourceMatrixCloudFunction/?name=mary]. The search parameters are “name”, “phone”, “practice”, and the function should be called with a GET. The return of the function is a pandas dataframe in JSON. Right now the “File” column in the dataframe is just the name of a file, but that will be updated to be a URL in the next couple of days. Right now the endpoint is open, but we will need to issue an auth token, but for the moment, you can develop directly against this. Please note that searches are case insensitive.
+
+[~accountid:712020:acd3751f-379c-4e62-a95e-2686853dee62], FYI.",03/Nov/23 2:57 PM;712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf;The endpoint for the Cloud Function has been moved to [https://us-west1-chs-resource-matrix.cloudfunctions.net/resourcematrixcloudfunction|https://us-west1-chs-resource-matrix.cloudfunctions.net/resourcematrixcloudfunction].,,,,,,,,,,,,,,,,,10041,Covert CHS product matrices into software for Denim conversations and CHS agent workflow,Done
+Report: All Conversations (with PHI),CHS-34,10033,Story,4_Review,CHS,CHS Implementation,software,Ben Gawiser,712020:0495d639-b09a-4a37-aac2-288a9bc7a5bf,,Medium,,Himanshu Pant,712020:d50118c4-bccd-4ee3-aad3-9b4c3bc9a922,Marc Lachs,712020:93dcf9e9-6c63-4874-99bd-ccb9ea569441,Marc Lachs,712020:93dcf9e9-6c63-4874-99bd-ccb9ea569441,20/Oct/23 1:35 PM,14/Dec/23 2:10 PM,19/Dec/23 2:22 AM,,,0,"*User Story*
 
 We’ll need to understand all conversations that the system handles. This is a fairly simplistic data dump of all calls and their attributes. 
 
@@ -1025,4 +1557,187 @@ This report contains PHI.
 
 *Acceptance Criteria*
 
-* [https://denimhealth.atlassian.net/l/cp/Uh0q8vuw|https://denimhealth.atlassian.net/l/cp/Uh0q8vuw|smart-link] "
+* [https://denimhealth.atlassian.net/l/cp/Uh0q8vuw|https://denimhealth.atlassian.net/l/cp/Uh0q8vuw|smart-link] ",,Gokberk Yar,Himanshu Pant,Marc Lachs,Sarah Torres,712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8,712020:d50118c4-bccd-4ee3-aad3-9b4c3bc9a922,712020:93dcf9e9-6c63-4874-99bd-ccb9ea569441,712020:c3625edf-46a1-4a8a-b59e-a876d35ee7c5,,,,,,,,,,CHS-44,,,,,12/Dec/23 6:53 AM;712020:d50118c4-bccd-4ee3-aad3-9b4c3bc9a922;Combined Raw Data Schema.png;https://denimhealth.atlassian.net/rest/api/3/attachment/content/10053,30/Nov/23 5:37 PM;712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8;Screenshot 2023-11-30 at 5.34.41 PM.png;https://denimhealth.atlassian.net/rest/api/3/attachment/content/10043,30/Nov/23 5:40 PM;712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8;Screenshot 2023-11-30 at 5.38.59 PM.png;https://denimhealth.atlassian.net/rest/api/3/attachment/content/10044,30/Nov/23 5:51 PM;712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8;Screenshot 2023-11-30 at 5.41.23 PM.png;https://denimhealth.atlassian.net/rest/api/3/attachment/content/10047,30/Nov/23 5:51 PM;712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8;Screenshot 2023-11-30 at 5.41.59 PM.png;https://denimhealth.atlassian.net/rest/api/3/attachment/content/10046,30/Nov/23 5:51 PM;712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8;Screenshot 2023-11-30 at 5.44.16 PM.png;https://denimhealth.atlassian.net/rest/api/3/attachment/content/10045,30/Nov/23 6:08 PM;712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8;Screenshot 2023-11-30 at 6.08.02 PM.png;https://denimhealth.atlassian.net/rest/api/3/attachment/content/10048,30/Nov/23 6:12 PM;712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8;Screenshot 2023-11-30 at 6.11.20 PM.png;https://denimhealth.atlassian.net/rest/api/3/attachment/content/10049,11/Dec/23 9:34 AM;712020:d50118c4-bccd-4ee3-aad3-9b4c3bc9a922;Screenshot 2023-12-11 at 8.54.17 PM.png;https://denimhealth.atlassian.net/rest/api/3/attachment/content/10052,12/Dec/23 6:53 AM;712020:d50118c4-bccd-4ee3-aad3-9b4c3bc9a922;Trascript Schema.png;https://denimhealth.atlassian.net/rest/api/3/attachment/content/10055,12/Dec/23 6:53 AM;712020:d50118c4-bccd-4ee3-aad3-9b4c3bc9a922;combined raw data.xlsx;https://denimhealth.atlassian.net/rest/api/3/attachment/content/10056,11/Dec/23 9:33 AM;712020:d50118c4-bccd-4ee3-aad3-9b4c3bc9a922;combined_raw_data.xlsx;https://denimhealth.atlassian.net/rest/api/3/attachment/content/10051,12/Dec/23 6:53 AM;712020:d50118c4-bccd-4ee3-aad3-9b4c3bc9a922;transcript data.xlsx;https://denimhealth.atlassian.net/rest/api/3/attachment/content/10054,,,,,,,,,,,,,,purple,,,0|i0004e:zzi,,Denim Sprint 01,,,,,,,,,2023-11-30 23:37:10.949,"30/Nov/23 5:37 PM;712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8;Technical Details & Expectations:
+- Available in a format that can be loaded into a data warehouse: bigquery
+
+
+
+Step 1: Create a new bigquery {{dataset}} and {{table}}.  
+Dataset name should be *reporting*.  
+Table name should *combined_raw_data*.
+
+Create these from GUI but we will change it to terraform later, for reference in future we will need adapted version of this one. (this is a different table)
+
+
+{noformat}resource ""google_bigquery_dataset"" ""dataset"" {
+  dataset_id = ""dialogflow""
+  location   = ""US""
+}
+
+resource ""google_bigquery_table"" ""table"" {
+  dataset_id = google_bigquery_dataset.dataset.dataset_id
+  table_id   = ""chs""
+
+  schema = jsonencode([
+    { name = ""project_id"", type = ""STRING"" },
+    { name = ""agent_id"", type = ""STRING"" },
+    { name = ""conversation_name"", type = ""STRING"" },
+    { name = ""turn_position"", type = ""INTEGER"" },
+    { name = ""request_time"", type = ""TIMESTAMP"" },
+    { name = ""language_code"", type = ""STRING"" },
+    { name = ""request"", type = ""JSON"" },
+    { name = ""response"", type = ""JSON"" },
+    { name = ""partial_responses"", type = ""JSON"" },
+    { name = ""derived_data"", type = ""JSON"" },
+    { name = ""conversation_signals"", type = ""JSON"" },
+  ])
+}{noformat}
+
+
+We have two data sources at the moment: Spanner and BigQuery.
+Below you are seeing our spanner db, there is only spanner table.
+Instance ID: tfgen-spanid-20231114185734937
+Database Name metadata
+Table Name: chs
+
+!Screenshot 2023-11-30 at 5.34.41 PM.png|width=949,height=427!
+
+
+
+We have below bigquery table.
+Table name: genesys-dialogflow-agent.dialogflow.chs
+
+
+!Screenshot 2023-11-30 at 5.38.59 PM.png|width=936,height=538!
+
+
+
+
+
+Conversation name field in two tables are identical, join them using the conversation name.
+Below you can see conversation_name format.
+
+!Screenshot 2023-11-30 at 5.41.23 PM.png|width=778,height=411!
+
+!Screenshot 2023-11-30 at 5.41.59 PM.png|width=681,height=461!
+
+
+
+There is one extra thing to do before joining these tables.
+
+In big query table single conversation have multiple turns. We would like to combine all the turns into a single conversation [transcript.|http://transcript.In] Inside the request column, there are info for agent side and human side. 
+
+
+Using the turns combine all. In Agent: Human: repeated prefixes, I put a sample below.
+
+Agent: How can I help?
+Human: I have back pain
+
+Agent: In scale 1-10, how bad it is?
+Human: 5
+
+
+!Screenshot 2023-11-30 at 5.44.16 PM.png|width=1262,height=669!
+
+After creating the transcript and extracting any valuable information for the whole row. Dump all the data into a bigquery table you created earlier with suitable schema.","30/Nov/23 5:57 PM;712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8;[~accountid:712020:d50118c4-bccd-4ee3-aad3-9b4c3bc9a922] I added you to gcp project: genesys-dialogflow-agent.
+Ben sent you to github invitation.
+
+I created a dev vm for you in genesys-dialogflow-agent.
+
+
+!Screenshot 2023-11-30 at 6.08.02 PM.png|width=1209,height=274!
+
+* first thing to do create a new ssh key and add your ssh key to this machine.
+
+
+!Screenshot 2023-11-30 at 6.11.20 PM.png|width=54.42453854505971%!
+
+
+to generate a new key
+{{ssh-keygen -t ed25519 -C ""your_email@example.com""}}
+
+Example ssh config file 
+
+{noformat}Host hpant-dev
+  HostName 34.173.197.251
+  UseKeychain yes
+  AddKeysToAgent yes
+  IdentityFile ~/.ssh/google_compute_engine
+  User yar{noformat}
+
+
+
+
+- install required packages like git, python3.11. 
+then create another ssh key in this vm, register to github.
+
+pull the cloud_functions repo.
+
+create branch kan-34 from qa not main.
+
+implement all functionality as a cloud function, in reporting subfolder.",01/Dec/23 6:37 AM;712020:d50118c4-bccd-4ee3-aad3-9b4c3bc9a922;I’ve begun looking into the ticket and am currently working on configuration and setup of the code on the Vm and local machine.,"11/Dec/23 9:34 AM;712020:d50118c4-bccd-4ee3-aad3-9b4c3bc9a922;[~accountid:712020:c3625edf-46a1-4a8a-b59e-a876d35ee7c5] I've put together a schema (check out the screenshot) and tossed the data into BigQuery (see the attached xls). If you think there's anything else to add or fix, would love to hear your thoughts. 
+
+
+
+!Screenshot 2023-12-11 at 8.54.17 PM.png|width=971,height=627!
+
+[^combined_raw_data.xlsx]
+
+","11/Dec/23 9:49 AM;712020:c3625edf-46a1-4a8a-b59e-a876d35ee7c5;[~accountid:712020:d50118c4-bccd-4ee3-aad3-9b4c3bc9a922] hi! thanks for sending this. I have a couple of thoughts, though you’ll want to check with Yar/others before implementing because I have only moderate confidence that these should affect what you’re doing:
+
+* I see both Turn_Count and Turn_Position in different screenshots. I think what we want here is Turn_Count, so that each row represents all of exactly one conversation. (Unless perhaps Turn_Position is in a separate table and splitting apart the Transcript, which I would be OK with.) To me, the important aspect is that the “All Conversations” report has one conversation per row, so that we can easily do analytics.
+* The order of the columns seems a little random. It might be helpful for human readability/usage to group all the Date/Time columns together,  to group all the DID/Clinic columns together, and to group all the CID/Caller columns together. I’d also put the booleans toward the end, with Turn_Count. To me, those represent the group of things we’ll be doing analytics on and they make sense to me to the right. Overall, the order I’d expect is external IDs, datetimes, DIDs, CIDs, call data.
+* I’m not sure I understand the difference between Request_Time and Conversation_Start_Time
+* I think we might be missing the readable name for the DID (that is, the name of the clinic we believe the caller was dialing)
+* I’m not sure we should have the full transcript in the main “All Conversations” table - just a link out to it (in which case perhaps it’s transcript_name). (Though perhaps the screenshot with the conversation showing was already a separate table, which is OK with me.)","11/Dec/23 10:05 AM;712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8;[~accountid:712020:c3625edf-46a1-4a8a-b59e-a876d35ee7c5] bullet 3:
+_I’m not sure I understand the difference between Request_Time and Conversation_Start_Time_
+
+Request time is an array for each of the turns in the conversation.
+Conversation Start Time is the minimum of Request times.
+
+Request time is debugging purposes and internal.
+Conversation Start Time, later is gonna used to filter by time.","11/Dec/23 10:07 AM;712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8;[~accountid:712020:c3625edf-46a1-4a8a-b59e-a876d35ee7c5] [~accountid:712020:d50118c4-bccd-4ee3-aad3-9b4c3bc9a922] 
+bullet 2: _The order of the columns seems a little random._
+
+Let’s re-order them with the logical groups that Sarah mentioned. ","11/Dec/23 10:10 AM;712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8;[~accountid:712020:c3625edf-46a1-4a8a-b59e-a876d35ee7c5] 
+bulllet1 : _I see both Turn_Count and Turn_Position in different screenshots .._
+
+Each row is a full conversation. And Turn_Count is total number of turns. Turn_Position field in screenshot is in the input data source & not in the reporting db that himanshu built.
+
+","11/Dec/23 10:12 AM;712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8;[~accountid:712020:c3625edf-46a1-4a8a-b59e-a876d35ee7c5] [~accountid:712020:d50118c4-bccd-4ee3-aad3-9b4c3bc9a922] 
+bullet 4: _I think we might be missing the readable name for the DID._
+
+Yes, it is missing, it is substantially different from all others. We would the show what we have before commiting time into this one. 
+
+In short: Readable DID will come from a different data source.
+","11/Dec/23 10:13 AM;712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8;[~accountid:712020:c3625edf-46a1-4a8a-b59e-a876d35ee7c5] 
+Bullet 5: I’m not sure we should have the full transcript.
+
+You mean we should two table and this have a linkage field like conversation_id ?","11/Dec/23 10:18 AM;712020:c3625edf-46a1-4a8a-b59e-a876d35ee7c5;[~accountid:712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8] yes, I think the full transcript should be in a different table. it feels like way too much content for this one - in my mind, this is the main data dump of all call analytics so we can easily see that 40% of all calls required human intervention, or 10% were premature hangups. it seems like deep analysis of the content of the transcripts is a separate task and thus a separate table. (the idea behind [https://denimhealth.atlassian.net/browse/KAN-39|https://denimhealth.atlassian.net/browse/KAN-39|smart-link] as a separate report)","11/Dec/23 10:24 AM;712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8;[~accountid:712020:c3625edf-46a1-4a8a-b59e-a876d35ee7c5] 
+I liked this idea. This might have other use cases such as hiding PII etc.
+
+[~accountid:712020:d50118c4-bccd-4ee3-aad3-9b4c3bc9a922] 
+Let’s create one more table into the reporting. 
+Please name it, raw_transcript_with_pii. 
+Have have three fields:
+- transcript_id
+- transcript 
+- length : in terms of characters.
+
+Update the schema of combined raw table. 
+- replace transcript with transcript_id.",12/Dec/23 1:06 AM;712020:d50118c4-bccd-4ee3-aad3-9b4c3bc9a922;[~accountid:712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8] Do we need a  transcript Id  ? We can link two tables using conversation_name. ,"12/Dec/23 6:53 AM;712020:d50118c4-bccd-4ee3-aad3-9b4c3bc9a922;[~accountid:712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8] [~accountid:712020:c3625edf-46a1-4a8a-b59e-a876d35ee7c5] 
+
+I've put together a new schema (check out the screenshot) for transcript and combined data. But Instead of creating a new key for transcript I am using conversation_name to link these two tables. Let me know your thoughts on this.
+
+!Combined Raw Data Schema.png|width=1104,height=575!
+
+!Trascript Schema.png|width=971,height=327!
+
+[^transcript data.xlsx]
+[^combined raw data.xlsx]
+
+","12/Dec/23 8:42 AM;712020:c3625edf-46a1-4a8a-b59e-a876d35ee7c5;[~accountid:712020:d50118c4-bccd-4ee3-aad3-9b4c3bc9a922] the schema updates look great 🙂  
+I have no opinion on keys - I’ll leave that to [~accountid:712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8] ",12/Dec/23 10:11 AM;712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8;[~accountid:712020:d50118c4-bccd-4ee3-aad3-9b4c3bc9a922]  conversation_name is good. ,"12/Dec/23 11:11 AM;712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8;[~accountid:712020:d50118c4-bccd-4ee3-aad3-9b4c3bc9a922] can you work on deployment this?
+please add your queries to to github bucket.
+
+and make this data transformation task, something run on regular basis like every day. ",13/Dec/23 3:02 AM;712020:d50118c4-bccd-4ee3-aad3-9b4c3bc9a922;[~accountid:712020:51020152-4fd7-4079-bdda-0c38a4e9c4b8] I have checked in the query in KAN-34 branch.  I am currently working on the deployment code. Once it is done I will raise a PR.,10044,Reporting (V1),In Progress
